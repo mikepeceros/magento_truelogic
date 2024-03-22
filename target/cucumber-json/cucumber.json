@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Single scenario to checkout cart",
+        "description": "",
+        "id": "search-orders;single-scenario-to-checkout-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4931387801,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user adds the next products",
+            "match": {
+              "location": "ProductSearchSteps.theUserAddsTheNextProducts(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "product name",
+                  "feature 1",
+                  "feature 2"
+                ]
+              },
+              {
+                "cells": [
+                  "Aether Gym",
+                  "33",
+                  "Brown"
+                ]
+              },
+              {
+                "cells": [
+                  "Capri",
+                  "28",
+                  "Blue"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14246441199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user checkouts the cart",
+            "match": {
+              "location": "MainSteps.theUserCheckoutsTheCart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "firstName",
+                  "LastName",
+                  "Company",
+                  "Street",
+                  "City",
+                  "State",
+                  "ZipCode",
+                  "Country",
+                  "Phone"
+                ]
+              },
+              {
+                "cells": [
+                  "miguel@magento.com",
+                  "Miguel",
+                  "Peceros",
+                  "Google",
+                  "Lima  2313",
+                  "Lima",
+                  "Arizona",
+                  "13131",
+                  "Peru",
+                  "944258351"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2787056199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user notices the order number",
+            "match": {
+              "location": "MainSteps.theUserNoticesTheOrderNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636183200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user goes to \"Orders and Returns\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Orders and Returns\"",
+                  "offset": 17
+                }
+              ],
+              "location": "MainSteps.theUserGoesTo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2449250700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user finds the order created",
+            "match": {
+              "location": "MainSteps.theUserFindsTheOrderCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the order is found correctly",
+            "match": {
+              "location": "MainSteps.theOrderIsFoundCorrectly()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Orders",
+    "description": "",
+    "id": "search-orders",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/magento/SearchOrders.feature",
+    "tags": []
+  }
+]

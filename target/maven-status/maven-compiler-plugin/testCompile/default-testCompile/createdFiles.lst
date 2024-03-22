@@ -1,0 +1,12 @@
+com\magento\pages\ShippingPage.class
+com\magento\pages\ReviewPage.class
+com\base\BasePage.class
+com\magento\pages\MainPage.class
+com\magento\utils\Order.class
+com\magento\steps\MainSteps.class
+com\magento\AppTestRun.class
+com\magento\steps\CheckoutSteps.class
+com\magento\pages\CheckoutPage.class
+com\magento\steps\ProductSearchSteps.class
+com\magento\steps\ShippingSteps.class
+com\magento\pages\ProductSearchPage.class
